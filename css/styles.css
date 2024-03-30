@@ -1,0 +1,193 @@
+/* default */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    padding-left: 0;
+}
+li{
+    list-style: none;
+}
+
+.primary-title{
+    font-size: 34px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Squada One", sans-serif;
+}
+.sub-title{
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+/* top bar */
+.top-bar{
+    background-color: green;
+}
+.top-bar p {
+    color: #fff;
+}
+.top-bar a{
+    color: rgb(200, 199, 199);
+    transition: 0.3s;
+}
+.top-bar a:hover{
+    color: #fff;
+    font-weight: 600;
+}
+/* top header */
+.top-header ul li a{
+    color: gray;
+    transition: 0.3s ease-in-out;
+    font-size: 12px;
+}
+.top-header ul li a:hover{
+    color: green;
+    font-weight: 600;
+}
+/* main nav */
+.main-nav ul li{
+    border-right: 1px solid #dee2e6;
+}
+.main-nav ul li:last-child{
+    border-right: none !important;
+}
+
+.dropdown{
+    position: unset;
+}
+.main-nav-dropdown.show{
+    display: flex;
+    justify-content: center;
+}
+
+/* banner */
+.banner{
+    background-image: url("../media/image/Banner.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 50px;
+
+}
+/* features blogs */
+.card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    top: unset !important;
+}
+/* brands */
+.page-title h3{
+    font-size: 24px;
+    font-family: "Squada One", sans-serif;
+    color: gray;
+}
+.brand-images{
+    filter: grayscale(1) contrast(0.3);
+}
+.splide__arrows button{
+    background-color: transparent;
+}
+.splide__arrows button i{
+    font-size: 26px;
+    color: gray;
+}
+.splide__arrow--prev{
+    left: 0 !important;
+}
+.splide__arrow--next{
+    right: 0 !important;
+}
+
+/* products */
+.products .card-title{
+    font-family: "Squada One", sans-serif;
+    font-size: 26px;
+    color: gray;
+}
+.products .card-text{
+    font-family: "Squada One", sans-serif;
+    font-size: 20px;
+    color: gray;
+}
+.products span{
+    font-size: 18px;
+    color: gray;
+}
+.products i{
+    font-size: 16px;
+    color: gray;
+}
+
+/* footer blog */
+.final-blog{
+    top: 0 !important;
+}
+/* join the club */
+
+.join-club{
+    background-image: url("../media/image/view.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.join-club h2{
+    color: #fff;
+    font-family: "Squada One", sans-serif;
+    font-size: 36px;
+}
+
+.join-club .row{
+    padding: 0 200px;
+}
+
+/* footer */
+footer{
+    background-color: rgb(230, 224, 224);
+}
+
+footer h3{
+    color: gray;
+    font-size: 20px;
+    font-family: "Squada One", sans-serif;
+}
+
+footer ul li a{
+    color: gray;
+}
+
+.payment h4{
+    color: gray;
+    font-size: 26px;
+    font-family: "Squada One", sans-serif;
+}
+.payment p{
+    color: gray;
+    font-size: 16px;
+    font-family: "Squada One", sans-serif;
+}
+
+/* copyright */
+.copyright{
+    background-color: rgb(15, 155, 15);
+}
+
+.copyright ul li a{
+    color: #fff;
+}
+.copyright span, .copyright a{
+    color: #fff;
+}
+.copyright span a{
+    font-size: 14px;
+}
+.copyright span{
+    font-size: 14px;
+}
